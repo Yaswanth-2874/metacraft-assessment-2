@@ -1,0 +1,140 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "burn",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "mint",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tokenAbbrv",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tokenName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalSupply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Assessment2.sol": "MyToken"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Assessment2.sol": {
+			"keccak256": "0xe41d8596b18139b14998342df58af21ac48bedf5b164172b2b0587bc5d1cc324",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://017702882bb88d03890a134dccf78d7a530a2f6688950fa67ffc985f0e77cb96",
+				"dweb:/ipfs/QmeVKFapN1vE7mhDndXm44o8aM9XAHycRGsAVEzGe9AqEz"
+			]
+		}
+	},
+	"version": 1
+}
